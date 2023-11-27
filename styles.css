@@ -1,0 +1,83 @@
+body {
+    position: relative;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url('cipher-ilustration.jpg');
+
+      
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+    border: 2px solid #090303;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url('wood-image.jpg');
+  }
+  
+  .input-section {
+    margin-bottom: 20px;
+  }
+  
+  .output-section {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  textarea,
+  input,
+  select,
+  button {
+    margin-bottom: 10px;
+    padding: 5px;
+
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  textarea[readonly] {
+    background-color: #f5f5f5;
+  }
+  
+  .corner-text {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+  }
+
+  .copy-icon {
+    cursor: pointer;
+    margin-left: 1px; /* Jarak antara ikon dan teks */
+    width: 15px; /* Lebar ikon */
+    height: auto; /* Tinggi akan disesuaikan secara otomatis agar proporsi gambar terjaga */
+    /* Atur gaya lainnya sesuai kebutuhan */
+  }
+  
+  /* Style untuk alert */
+.alert {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #36f472;
+    color: rgb(12, 12, 12);
+    padding: 15px;
+    border-radius: 5px;
+    display: none; /* Awalnya tidak terlihat */
+  }
+  
+  
